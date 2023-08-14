@@ -1,0 +1,17 @@
+html,
+body {
+    height: 100%;
+}
+
+.pages {
+    display: flex;
+}
+
+.page {
+    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    object-position: left top;
+    width: 100%;
+}
